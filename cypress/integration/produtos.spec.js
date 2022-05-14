@@ -14,7 +14,7 @@ describe('Funcionalidade Página de Produtos', () => {
     });
 
     it('Deve adicionar um produto ao carrinho', () => {
-        var quantidade= 6
+        var quantidade= 2
         cy.get('.product-block')
         .contains('Ariel Roll Sleeve Sweatshirt').click()
         cy.get('.button-variable-item-L').click()
